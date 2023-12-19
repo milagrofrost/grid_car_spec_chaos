@@ -56,6 +56,10 @@ The script at initial load will go ahead and update the values for your target v
 
 After that, the script will continue to run forever.  It watches the screenshot folder every few seconds, waiting for any new screenshots to arrive.  When it sees a new screenshot from GRID, using Steam's 'F12' hotkey, it will create a new set of values.  After that you'll need to retire your race and start again to load the new values.  I used this screen show method as a way to interact with python script without having to switch between game and the window where python is running.  
 
+I have saved configs that I thought were interesting in the 'saved'configs' folder.  To use these values, you;ll just need to copy the values from the CSV file in the folder and copy the values to ANY car you like in the 'cars' folder of your GRID installation. 
+
+Try 'df3 Formula -1" You're gonna love that one.  
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
