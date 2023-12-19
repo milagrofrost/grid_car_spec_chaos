@@ -52,9 +52,9 @@ Make sure to first update your GRID installation path variable and also change t
 Open a powershell window.
 Run the script with: `python update_specs.py`
 
-The script at initial load will go ahead and update the values for your target vehicle you want to adjust.   YOu can verify the values were updated by going to the car CSV file in your GRID installation and make sure it was last modified very recently.  
+The script at initial load will go ahead and update the values for your target vehicle you want to adjust.   You can verify the values were updated by going to the car CSV file in your GRID installation and make sure it was last modified very recently.  
 
-After that, the script will continue to run forever.  I watches the screenshot folder every few seconds, waiting for any new screenshots to arrive.  When it sees a new screenshot from GRID, using Steam's 'F12' hotkey, it will create a new set of values.  After that you'll need to retire your race and start again to load the new values.  I used this screen show method as a way to interact with python script without having to switch between game and the window where python is running.  
+After that, the script will continue to run forever.  It watches the screenshot folder every few seconds, waiting for any new screenshots to arrive.  When it sees a new screenshot from GRID, using Steam's 'F12' hotkey, it will create a new set of values.  After that you'll need to retire your race and start again to load the new values.  I used this screen show method as a way to interact with python script without having to switch between game and the window where python is running.  
 
 ## License
 
