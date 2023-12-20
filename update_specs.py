@@ -11,8 +11,8 @@ import os
 car_to_adjust = "df3"                           # the car to adjust,  set to the car abbreviation.  Example: "df3"
 car_to_diff   = "random"                        # the car to compare against  # set to "random" to use a random car from the cars folder, otherwise set to the car abbreviation.  Example: "stk"
 
-inc_dec       = 0.75                                  # the amount to increase or decrease a value by.  0.9 = 90% of the original value
-odds          = 0.25                            # chance of adjusting a value.  I find it works better to have this lower when the inc_dec is higher.
+inc_dec       = 0.9                             # the amount to increase or decrease a value by.  0.9 = 90% of the original value. Best to keep below 1.0
+odds          = 0.2                             # chance of adjusting a value.  I find it works better to have this lower when the inc_dec is higher. Valid range is 0.0 - 1.0
 index_range_modifier = [list(range(0, 360))]    # default:  [list(range(0, 360))]   # a list of indexes to adjust.  Can be a single number or a range.  Example: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] or [list(range(0, 360))] or [list(range(0, 360)), 400, 401, 402, 403, 404, 405, 406, 407, 408, 409] or [list(range(0, 360)), 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, list(range(410, 420))]
 
 grid_cars_path       = "D:\\Steam\\steamapps\\common\\GRID\\cars\\"                         # path to the Grid cars folder This is my path.  Change it to yours.  use double backslashes
